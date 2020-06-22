@@ -1,8 +1,6 @@
 package week3.james;
-
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * author:james
  * date: 2020-06-22

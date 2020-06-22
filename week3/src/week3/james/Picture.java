@@ -1,7 +1,5 @@
 package week3.james;
-
 import javax.swing.*;
-
 /**
  * author:james
  * date: 2020-06-22

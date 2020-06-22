@@ -3,7 +3,7 @@ package week3.james;
  * author:james
  * date: 2020-06-22
  */
-public class TextBox extends Composite {
+public class TextBox extends Component {
     private  String name;
     public TextBox(String name) {
         super(name);

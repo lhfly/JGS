@@ -3,7 +3,7 @@ package week3.james;
  * author:james
  * date: 2020-06-22
  */
-public class PasswordBox extends Composite {
+public class PasswordBox extends Component {
     private  String name;
     public PasswordBox(String name) {
         super(name);

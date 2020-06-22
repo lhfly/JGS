@@ -3,7 +3,7 @@ package week3.james;
  * author:james
  * date: 2020-06-22
  */
-public class CheckBox extends Composite {
+public class CheckBox extends Component {
     private  String name;
     public CheckBox(String name) {
         super(name);

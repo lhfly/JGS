@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fdef42c6-e57f-4148-9823-9f4c5bb7a78a" name="Default Changelist" comment="add">
+      <change beforePath="$PROJECT_DIR$/week3/resource/手写单例.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java\apache-maven-3.6.3-bin\repository" />
+        <option name="mavenHome" value="D:/Java/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dgDcRcou5ZuoxIJ89Bsq1aoBNQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Week3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.james.Week3Main" />
+      <module name="week3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.james.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Week3Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdef42c6-e57f-4148-9823-9f4c5bb7a78a" name="Default Changelist" comment="" />
+      <created>1592837921312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592837921312</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1592838899325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592838899325</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add">
+      <created>1592839253716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592839253716</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add">
+      <created>1592839418156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592839418156</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add">
+      <created>1592840821286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592840821286</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add">
+      <created>1592842929004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592842929004</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add">
+      <created>1592842935770</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592842935770</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="130" key="#Project_Structure" timestamp="1592838813312">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="130" key="#Project_Structure/0.0.2048.1112@0.0.2048.1112" timestamp="1592838813312" />
+    <state x="1121" y="393" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592838090765">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1121" y="393" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1592838090765" />
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom" timestamp="1592839298755">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1592839298755" />
+    <state width="1493" height="269" key="GridCell.Tab.0.center" timestamp="1592839298755">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1592839298755" />
+    <state width="1493" height="269" key="GridCell.Tab.0.left" timestamp="1592839298754">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1592839298754" />
+    <state width="1493" height="269" key="GridCell.Tab.0.right" timestamp="1592839298755">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1493" height="269" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1592839298755" />
+    <state x="526" y="200" key="SettingsEditor" timestamp="1592838364460">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="526" y="200" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1592838364460" />
+    <state x="762" y="311" key="Vcs.Push.Dialog.v2" timestamp="1592842918143">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="762" y="311" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1592842918143" />
+    <state x="941" y="382" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592838753848">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="941" y="382" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1592838753848" />
+    <state x="908" y="365" key="git4idea.merge.GitPullDialog" timestamp="1592910378565">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="908" y="365" key="git4idea.merge.GitPullDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1592910378565" />
+    <state x="434" y="166" key="new project wizard" timestamp="1592838809090">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="434" y="166" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1592838809090" />
+  </component>
+</project>

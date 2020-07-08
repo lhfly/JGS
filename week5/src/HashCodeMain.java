@@ -1,3 +1,10 @@
+package src;
+
+import sun.security.provider.MD5;
+
+import java.security.MessageDigest;
+
+
 import java.util.SortedMap;
 import java.util.TreeMap;
 import java.util.UUID;
@@ -17,19 +24,22 @@ public class HashCodeMain {
             "192.168.0.2",
             "192.168.0.3",
             "192.168.0.4",
-            "192.168.0.5",};
+            "192.168.0.5",
+            "192.168.0.6",
+            "192.168.0.7",
+            "192.168.0.8",
+            "192.168.0.9",
+            "192.168.0.10"
+    };
 
     public static void main(String[] args) {
-        System.out.println("192.168.0.0:111的哈希值：" + "192.168.0.0:1111".hashCode());
         for (int i = 0; i < serverList.length; i++) {
-            int hash = Math.abs(serverList[i].hashCode());
-            System.out.println("[" + serverList[i] + "]加入集合中, 其Hash值为" + hash);
+            int hash = GetHashCode(serverList[i]);
             sortedMap.put(hash, serverList[i]);
-
             countMap.put(serverList[i], 0);
         }
 
-        for (int j = 0; j < 10000; j++) {
+        for (int j = 0; j < 1000000; j++) {
             String node = UUID.randomUUID().toString();
             String name = getServer(node);
             if (countMap.containsKey(name)) {
@@ -37,11 +47,9 @@ public class HashCodeMain {
             } else {
                 countMap.put(name, 1);
             }
-            System.out.println(name);
         }
 
-        System.out.println(countMap.values());
-
+        //计算总数
         int server_count = 0;
         for (int item : countMap.values()) {
             server_count += item;
@@ -54,29 +62,49 @@ public class HashCodeMain {
             sum += Math.pow((item - avg), 2);
         }
 
+        System.out.println("" + countMap);
         System.out.println("标准差：" + Math.sqrt(sum / serverList.length));
 
     }
 
     private static String getServer(String node) {
-        // 得到带路由的结点的Hash值
-        int hash = Math.abs(node.hashCode());
-        System.out.print(hash);
-        System.out.print("--");
-        // 得到大于该Hash值的所有Map
+        int hash = GetHashCode(node);
         SortedMap<Integer, String> subMap = sortedMap.tailMap(hash);
         Integer i = 0;
         if (subMap != null && !subMap.isEmpty()) {
-            // 第一个Key就是顺时针过去离node最近的那个结点
             i = subMap.firstKey();
             return subMap.get(i);
-
         } else {
             i = sortedMap.lastKey();
             return sortedMap.get(i);
-
         }
+    }
 
+    public static int GetHashCode(String str) {
+        str = encrypt(str);
+        int b = 378551;
+        int a = 63689;
+        int hash = 0;
+        for (int i = 0; i < str.length(); i++) {
+            hash = hash * a + str.charAt(i);
+            a = a * b;
+        }
+        return (hash & 0x7FFFFFFF);
+    }
 
+    public static String encrypt(String dataStr) {
+        try {
+            MessageDigest m = MessageDigest.getInstance("MD5");
+            m.update(dataStr.getBytes("UTF8"));
+            byte s[] = m.digest();
+            String result = "";
+            for (int i = 0; i < s.length; i++) {
+                result += Integer.toHexString((0x000000FF & s[i]) | 0xFFFFFF00).substring(6);
+            }
+            return result;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
     }
 }

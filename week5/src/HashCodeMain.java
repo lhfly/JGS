@@ -61,7 +61,6 @@ public class HashCodeMain {
         for (int item : countMap.values()) {
             sum += Math.pow((item - avg), 2);
         }
-
         System.out.println("" + countMap);
         System.out.println("标准差：" + Math.sqrt(sum / serverList.length));
 
